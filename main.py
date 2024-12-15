@@ -12,7 +12,7 @@ from contact_form import contact
 
  # Page setup
 st.set_page_config(
-    page_title="Insightful Data Explorer",
+    page_title="Data Analytics Robot",
     page_icon="📊",
     layout="wide",
 )
@@ -42,7 +42,7 @@ st.markdown("""
 </style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #C0C0C0;">
     <div class="navbar-brand" target="_blank">
-        <span style="color: #333333; font-size: 44px;">   Insightful Data Explorer </span>
+        <span style="color: #333333; font-size: 44px;">   Data Analytics Robot </span>
     </div>
 
 </nav>

@@ -1,4 +1,4 @@
-#  Insightful Data Explorer
+#  Data Analytics Robot
 
 Welcome to the Data Explorer and Machine Learning App! This Streamlit-based application provides a comprehensive suite of tools for data analysis, Chat with Data, visualization, feature engineering, and automated machine learning (AutoML).
 

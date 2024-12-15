@@ -45,12 +45,12 @@ def select_sample_data_page():
 
 def home_page():
     # App title and description
-    st.title("Welcome to the Insightful Data Explorer!")
+    st.title("Welcome to the Data Analytics Robot!")
 
     st.markdown("""
         ### Your One-Stop Solution for Data Handling and Analysis
 
-        **Insightful Data Explorer** simplifies the data analysis and machine learning process through a user-friendly 
+        **Data Analytics Robot** simplifies the data analysis and machine learning process through a user-friendly 
         interface. Effortlessly upload, interact with, edit, visualize, and engineer features from your data without coding. Explore 
         the capabilities of automated machine learning (AutoML) to effortlessly build predictive models.
 
