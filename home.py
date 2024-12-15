@@ -57,9 +57,8 @@ def home_page():
         #### Features:
         - **Upload Data:** Easily upload your data in CSV or Excel format.
         - **Chat with Data:** InsightBot allows you to chat with your data.
-        - **Edit Data:** Make changes to your dataset right from the app.
-        - **Data Visualization:** Create insightful visualizations to understand your data better.
-        - **Feature Engineering:** Perform various feature engineering techniques to prepare your data for modeling.
+        - *Exploratory data abnalysis: Get an in-depth analysis of your data into distributions, correlations, missing values, and more with just a few clicks.
+        - **Data Visualization:** Create insightful visualizations to understand your data better.        - 
         - **AutoML:** Use automated machine learning to create predictive models without writing a single line of code.
         """)
     st.info("Disclaimer: The service may be unavailable if too many people use it concurrently. Thank you for your understanding.")
