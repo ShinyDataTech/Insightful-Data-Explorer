@@ -91,10 +91,9 @@ def home_page():
         #### How to Use: 
         1. **Upload Your Data:** Click on the 'Start' button to upload your CSV or Excel file.
         2. **Chat with Data:** Type your questions regarding the loaded data. InsightBot will provide answers to your queries. If you're not satisfied with the response, please ask again.
-        3. **Edit Your Data:** Navigate to the 'Data Edit' tab to make modifications to your dataset.
-        4. **Visualize Your Data:** Use the 'Visualization' tab to generate different types of charts and graphs.
-        5. **Feature Engineering:** Go to the 'Feature Engineering' tab to create and modify features.
-        6. **AutoML:** Visit the 'AutoML' tab to automatically train and evaluate machine learning models.
+        3. **Exploratory data abnalysis:** Navigate to the 'Exploratory data abnalysis' tab to get an in-depth analysis of your data into distributions, correlations, missing values, and more with just a few clicks.
+        4. **Visualize Your Data:** Use the 'Visualization' tab to generate different types of charts and graphs.        
+        5. **AutoML:** Visit the 'AutoML' tab to automatically train and evaluate machine learning models.
 
         Get started by selecting an option from the sidebar!
 

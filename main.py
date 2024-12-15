@@ -134,7 +134,8 @@ def main():
         # Other sidebar elements
         st.sidebar.image("logo_image.jpg", width=300,use_column_width=True)
         # Option menu in sidebar
-        pages = ["Home", "Chat with data", "Data Editor", "Profiling", "Visualization", "Feature Engineering", "Auto ML", "About", "Contact"]
+       # pages = ["Home", "Chat with data", "Data Editor", "Exploratory data analysis", "Visualization", "Feature Engineering", "Auto ML", "About", "Contact"]
+        pages = ["Home", "Chat with data","Exploratory data analysis", "Visualization", "Auto ML", "About", "Contact"]
         nav_tab_op = option_menu(
             menu_title="Menu",
             options=pages,
@@ -149,13 +150,7 @@ def main():
             }
         )
 
-        # User options for selecting background and text color
-        st.sidebar.title("Customize Sidebar Appearance")
-        side_bg_color = st.sidebar.color_picker("Pick a sidebar background color", "#C0C0C0")
-        side_text = st.sidebar.color_picker("Pick a sidebar text color", "#0D47A1")
-        # Apply the custom CSS
-        custom_css = generate_custom_css(side_bg_color, side_text)
-        st.markdown(custom_css, unsafe_allow_html=True)
+        
     # Main content of the app
     if nav_tab_op == "Home":
         home_page()
@@ -163,7 +158,7 @@ def main():
         chatData()
     elif nav_tab_op == "Data Editor":
         edit_dataframe()
-    elif nav_tab_op == "Profiling":
+    elif nav_tab_op == "Exploratory data analysis":
         stProfile()
     elif nav_tab_op == "Visualization":
         visualizatn()
