@@ -8,7 +8,7 @@ def stProfile():
     if 'df' not in st.session_state or st.session_state.df is None or st.session_state.df.empty:
         st.error("Please provide the data to proceed.")
         return
-    st.title("Pandas Profiling")
+    st.title("Exploratory Data Analysis")
     st.markdown("""
 
         This page provides an in-depth analysis of your dataset using 
