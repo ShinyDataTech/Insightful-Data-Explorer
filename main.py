@@ -18,8 +18,8 @@ st.set_page_config(
 )
 # initial_sidebar_state="expanded"
 # Header
-side_bg_color = "#C0C0C0"
-side_text = "#333333"
+side_bg_color = "#0D47A1"
+side_text = "#0D47A1"
 st.markdown(
     '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">',
     unsafe_allow_html=True)
@@ -42,7 +42,7 @@ st.markdown("""
 </style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #C0C0C0;">
     <div class="navbar-brand" target="_blank">
-        <span style="color: #333333; font-size: 44px;">   Data Analytics Robot </span>
+        <span style="color: #0D47A1; font-size: 44px;">   Data Analytics Robot </span>
     </div>
 
 </nav>
@@ -132,7 +132,7 @@ def main():
     # Sidebar content
     with st.sidebar:
         # Other sidebar elements
-        st.sidebar.image("logo_image.png", width=300,use_column_width=True)
+        st.sidebar.image("logo_image.jpg", width=300,use_column_width=True)
         # Option menu in sidebar
         pages = ["Home", "Chat with data", "Data Editor", "Profiling", "Visualization", "Feature Engineering", "Auto ML", "About", "Contact"]
         nav_tab_op = option_menu(
@@ -143,8 +143,8 @@ def main():
             default_index=0,
             styles={
                 "container": {"padding": "5!important","background-color":"#C0C0C0"},
-                "icon": {"color": "#333333", "font-size": "25px"},
-                "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "color":"#333333","--hover-color": "#eee"},
+                "icon": {"color": "#0D47A1", "font-size": "25px"},
+                "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "color":"#0D47A1","--hover-color": "#eee"},
                 "nav-link-selected": {"background-color": "#02ab21"},
             }
         )
@@ -152,7 +152,7 @@ def main():
         # User options for selecting background and text color
         st.sidebar.title("Customize Sidebar Appearance")
         side_bg_color = st.sidebar.color_picker("Pick a sidebar background color", "#C0C0C0")
-        side_text = st.sidebar.color_picker("Pick a sidebar text color", "#333333")
+        side_text = st.sidebar.color_picker("Pick a sidebar text color", "#0D47A1")
         # Apply the custom CSS
         custom_css = generate_custom_css(side_bg_color, side_text)
         st.markdown(custom_css, unsafe_allow_html=True)
