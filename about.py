@@ -4,7 +4,7 @@ def about_info():
     st.title("About This App")
 
     st.markdown("""
-    **Insightful Data Explorer aims to simplify the data analysis and machine learning process by providing a 
+    **Data Analytics Robot aims to simplify the data analysis and machine learning process by providing a 
     user-friendly interface with various features**
 
     ### Key Features:
@@ -25,13 +25,7 @@ def about_info():
     - **[Streamlit](https://streamlit.io)**: Used for creating interactive and responsive user interfaces.
     
     
-    ### Created By:
-    ##### **Archana**: [LinkedIn Profile](https://www.linkedin.com/in/archanags001)
-
-
-    ### Contact:
-    For inquiries or feedback, please contact **archanags203@gmail.com**
-
+   
     
     ### Disclaimer:
     This app is for demonstration and educational purposes only. Use the results and insights responsibly.
