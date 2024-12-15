@@ -1,9 +1,9 @@
 #  Data Analytics Robot
 
-Welcome to the Data Explorer and Machine Learning App! This Streamlit-based application provides a comprehensive suite of tools for data analysis, Chat with Data, visualization, feature engineering, and automated machine learning (AutoML).
+Welcome to the Data Explorer and Machine Learning App! This Streamlit-based application provides a comprehensive suite of tools for data analysis, Chat with Data, visualization, EDA, and automated machine learning (AutoML).
 
 
-## [App link](https://insightful-data-explorer-001.streamlit.app)
+## [App link](https://datanalyticsrobot.streamlit.app/)
 
 
 
@@ -16,7 +16,7 @@ Welcome to the Data Explorer and Machine Learning App! This Streamlit-based appl
 - **Data Handling**: Upload CSV or Excel files, edit data, and perform preprocessing tasks.
 - **Chat with Data:** InsightBot allows you to chat with your data.
 - **Visualization**: Create custom visualizations and use AutoViz for automated chart generation.
-- **Feature Engineering**: Transform and create new features, handle missing values, outliers, and more.
+- **Exploratory Data Analysis**: Get comprehensive insights about the data.
 - **AutoML**: Automate model selection, training, and optimization for regression, classification, clustering, anomaly detection, and time series forecasting with PyCaret.
 - **Profiling**: Generate detailed data profiles using YData Profiling.
 
