@@ -57,7 +57,7 @@ def home_page():
         #### Features:
         - **Upload Data:** Easily upload your data in CSV or Excel format.
         - **Chat with Data:** InsightBot allows you to chat with your data.
-        - *Exploratory data abnalysis: Get an in-depth analysis of your data into distributions, correlations, missing values, and more with just a few clicks.
+        - **Exploratory data abnalysis: Get an in-depth analysis of your data into distributions, correlations, missing values, and more with just a few clicks.
         - **Data Visualization:** Create insightful visualizations to understand your data better.        - 
         - **AutoML:** Use automated machine learning to create predictive models without writing a single line of code.
         """)
